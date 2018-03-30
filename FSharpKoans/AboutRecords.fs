@@ -25,7 +25,7 @@ type Book =
 module ``06: On the Record`` =
     [<Test>]
     let ``01 Creating records`` () =
-        let myRecord = __
+        let myRecord =__
         myRecord.Title |> should equal "Steelheart"
         myRecord.Author |> should equal "Brandon Sanderson"
         myRecord.Year |> should equal 2013
